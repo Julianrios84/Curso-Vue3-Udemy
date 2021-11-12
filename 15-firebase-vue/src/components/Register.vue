@@ -62,7 +62,6 @@ export default {
         this.pass1.length >= 6 &&
         this.email != ""
       ) {
-        // const API_KEY = "AIzaSyAnKo7BOid9dOqkyWO7N0K0R9Xl8pz-TnU";
 
         const res = await fetch(
           `${this.VUE_APP_AUTH_SIGNUP}`,
